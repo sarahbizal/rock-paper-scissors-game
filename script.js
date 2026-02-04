@@ -7,7 +7,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-  return prompt("Enter your choice (rock, paper, or scissors):");
+  return prompt("Enter your choice (rock, paper, or scissors):").toLowerCase();
 }
 
 //Specific lesson plan instructions wanted playRound to be within playGame.
